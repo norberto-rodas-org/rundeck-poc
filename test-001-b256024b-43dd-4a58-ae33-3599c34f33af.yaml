@@ -1,0 +1,18 @@
+- defaultTab: summary
+  description: for testing purposes
+  executionEnabled: true
+  id: b256024b-43dd-4a58-ae33-3599c34f33af
+  loglevel: INFO
+  name: test-001
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - configuration:
+        command: cat .ssh/id_rsa.pub
+      nodeStep: true
+      type: localexec
+    keepgoing: false
+    strategy: node-first
+  uuid: b256024b-43dd-4a58-ae33-3599c34f33af
+
