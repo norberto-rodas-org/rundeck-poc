@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>05b60331-8460-4330-80a6-bfa7e8208497</id>
+    <loglevel>INFO</loglevel>
+    <name>otro-test</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <description>paso1</description>
+        <exec>ll</exec>
+      </command>
+    </sequence>
+    <uuid>05b60331-8460-4330-80a6-bfa7e8208497</uuid>
+  </job>
+</joblist>
